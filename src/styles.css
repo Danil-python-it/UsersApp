@@ -1,0 +1,162 @@
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #213547;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #747bff;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+code {
+  color: indigo;
+}
+
+img {
+  border: 2px solid indigo;
+  border-radius: 4px;
+}
+
+.MainContainer{
+  width: 500px;
+  min-height: 600px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  background-color: rgb(78, 49, 97);
+  color: white;
+  font-size: 20px;
+}
+.ContainerFromTwo, .ContainerFormOne{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.ContainerForShow{
+  width: 300px;
+  min-height: 200px;
+  max-height: 740px;
+  overflow: hidden;
+  background-color: #a480b8;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+.ContainerForShow ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.ContainerForShow ul li{
+  width: 100%;
+  list-style-type: none;
+  transition: 1s;
+  padding-left: 20px;
+}
+.ContainerForShow ul li:hover{
+  background-color: #70577e;
+  padding-left: 30px;
+  color: #d5b0d6;
+}
+.ContainerFromTwo div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.ContainerFromTwo div span:nth-child(2){
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+.button{
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.3s;
+}
+.button:hover{
+  transform: scale(1.2);
+  color: palegoldenrod;
+}
+.ContainerFormOne input{
+  border: none;
+  background-color: rgb(199, 173, 227);
+  padding: 3px 0 3px 10px ;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+}
